@@ -1,0 +1,7 @@
+1.Ans= An NFT smart contract is blockchain computer programing that mangaes and enhances digital assert, or non-fungible tokens. An NFT can be owned by only one person at a time.A smart contract can activte and deactive an NFT.
+
+  (a)Open Zeppline:- Fist of all let's go to open zeppline then on the Wizard tab, click on ERC721. All NFTs are  ERC& tokens. we want our token to be Mintable, have Enumerable and URI Stronge as the features. Name your token as per your wish and also enter the desird symbol.
+
+  (b)Remix IDE:- Now click on the open in Remix button in the upper right hand side corner. It will open the Remix IDE and will have the code written. You can cahnge the compiler version to 0.8.4.
+ Here is the update code be sure to change it in Remix . We need to remove the ownable part of the solidity program as we want that people other than ownable can also mint our  NFTs. Also, we have added MAX_SUPPLY as 5000 so that the NFTs are limeted.
+
